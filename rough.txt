@@ -1,0 +1,12 @@
+{
+    "firstname" : "Shantanu",
+    "lastname" : "Bhusari",
+    "email" : "shantan@gmail.com",
+    "username" : "shantanu",
+    "password" : "Jayabhusari@1",
+    "branch" : "ECE",
+    "year" : "second",
+    "division" : "A",
+    "prn":34,
+    "roll":34
+}
