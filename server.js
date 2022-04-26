@@ -43,6 +43,10 @@ const studentSchema = mongoose.Schema(
 
 const Student = new mongoose.model("Student", studentSchema);
 
+app.get("/hello",(req,res) => {
+  res.send("Hello");
+})
+
 app.post("/login", (req, res) => {
   if (!req.body) return res.sendStatus(400);
   console.log(req.body);
